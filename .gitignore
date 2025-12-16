@@ -1,0 +1,104 @@
+# =========================
+# Go build outputs
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binary output
+bin/
+dist/
+out/
+build/
+
+# Test binary
+*.test
+
+# Coverage reports
+*.out
+coverage/
+coverage.out
+
+# =========================
+# Go workspace / cache
+# =========================
+# (Usually not committed)
+go.work
+go.work.sum
+
+# Vendor (commit ONLY if you intentionally use vendoring)
+vendor/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# OS specific
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Editor / IDE
+# =========================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# JetBrains (GoLand)
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+
+# =========================
+# Gin / live reload tools
+# =========================
+# Air
+.air.toml
+tmp/
+
+# Fresh
+runner.conf
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Database / local data
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Misc
+# =========================
+.DS_Store?
